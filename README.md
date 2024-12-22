@@ -1,4 +1,4 @@
-<img src="Images/interface.png" alt="Alt text" width="200">
+<img src="Images/interface.png" alt="Alt text" width="100%">
 
 
 # Thought Space
