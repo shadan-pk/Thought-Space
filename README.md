@@ -1,3 +1,6 @@
+<img src="Images/interface.png" alt="Alt text" width="200">
+
+
 # Thought Space
 
 Thought Space is a web application designed to let users freely express and share their thoughts. Inspired by a virtual "thought cloud," the app provides a calming and creative space for users to submit, view, and reflect on their thoughts.
