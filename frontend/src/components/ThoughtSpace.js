@@ -10,7 +10,6 @@ function ThoughtSpace({ thoughts, onThoughtMove }) {
   const [positions, setPositions] = useState({});
 
   useEffect(() => {
-    const thoughtSpace = thoughtSpaceRef.current;
 
     // Identify newly added thoughts
     const previousThoughts = previousThoughtsRef.current.map((t) => t._id);
