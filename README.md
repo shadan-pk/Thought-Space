@@ -1,7 +1,6 @@
-<img src="Images/interface.png" alt="Alt text" width="100%">
+<img src="Images/interface.png" alt="Thought Space Web App Interface" width="100%">
 
-
-# Thought Space
+## Thought Space
 
 Thought Space is a web application designed to let users freely express and share their thoughts. Inspired by a virtual "thought cloud," the app provides a calming and creative space for users to submit, view, and reflect on their thoughts.
 
@@ -9,7 +8,6 @@ Thought Space is a web application designed to let users freely express and shar
 
 - **Thought Space:** Displays user-submitted thoughts in a random, free-flowing layout.
 - **Thought Input:** A simple interface for users to submit their thoughts.
-- **Daily Collection:** View your thoughts organized by day for reflection and inspiration.
 - **Responsive Design:** Fully optimized for both desktop and mobile screens.
 - **Calming UI:** A soothing color palette to create a relaxing experience.
 
@@ -19,13 +17,24 @@ Thought Space is a web application designed to let users freely express and shar
 - **Backend:** Express.js
 - **Database:** MongoDB
 - **Styling:** CSS with animations
-- **Deployment:** Vercel (Frontend) and Render/Heroku (Backend)
 
 ## Installation
 
+### Method 1: Automatic Installation
+
+1. Download the latest release from the [ThoughtSpace v0.1.0 Release](https://github.com/shadan-pk/Thought-Space/releases/tag/v0.1.0).
+2. Extract the downloaded folder.
+3. Locate the `ThoughtSpace.bat` file in the extracted folder.
+4. Run the `ThoughtSpace.bat` file:
+   - Follow the prompts to provide your MongoDB connection string.
+   - The script will automatically install all required dependencies and start both the frontend and backend servers.
+5. Once completed, open the app in your browser at `http://localhost:3000`.
+
+### Method 2: Manual Installation
+
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/thought-space.git
+   https://github.com/shadan-pk/Thought-Space.git
    ```
 
 2. Navigate to the project directory:
@@ -67,10 +76,8 @@ Thought Space is a web application designed to let users freely express and shar
 
 ## Usage
 
-1. Open the app and log in or continue as a guest.
-2. Submit your thoughts using the input field at the bottom.
-3. View your thoughts scattered in the main thought space.
-4. Access the "Daily Collection" to see your past thoughts.
+1. Submit your thoughts using the input field at the bottom.
+2. View your thoughts scattered in the main thought space.
 
 ## Contribution
 
@@ -79,10 +86,6 @@ We welcome contributions to improve Thought Space! To contribute:
 1. Fork the repository.
 2. Create a new branch for your feature or bugfix.
 3. Submit a pull request with a detailed description of your changes.
-
-## Files
-
-The files required for deployment and setup will be uploaded shortly.
 
 ---
 
